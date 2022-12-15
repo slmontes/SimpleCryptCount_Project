@@ -7,12 +7,12 @@ In our paper: "In-silico and in-vitro morphometric analysis of intestinal organo
 
 The main algorithm function is: CountingCrypts_wCircularityFun.m
 The following parameters are inputs required:
-    - Type: Choose between "In vitro" or "In silico"
-    - MaskSet_name: Name of the organoid mask to read
-    Parameter values to identify crypts:
-    - Fourier_harmonic_term: See Table 2 in the paper
-    - Crypt_parameters: See Table 2 in the paper (Minimum crypt area, maximum
-                        crypt area and minimum arc length)
+- Type: Choose between "In vitro" or "In silico"
+- MaskSet_name: Name of the organoid mask to read
+Parameter values to identify crypts:
+- Fourier_harmonic_term: See Table 2 in the paper
+- Crypt_parameters: See Table 2 in the paper (Minimum crypt area, maximum
+                    crypt area and minimum arc length)
 
 ## Model of crypt formation on 2D intestinal organoids with 4 different cell types 
 
