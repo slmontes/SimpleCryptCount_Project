@@ -23,7 +23,7 @@ Before looking at this, you may wish to look at some of the https://chaste.cs.ox
 Before running this model you will need to install Chaste following these instructionds: https://chaste.cs.ox.ac.uk/trac/wiki/InstallGuides/InstallGuide
 The easiest way to do this is using an Ubuntu machine (or an Ubuntu virtual machine) as discussed on https://chaste.cs.ox.ac.uk/trac/wiki/InstallGuides/UbuntuPackage
 Note that Chaste is only fully supported on Linux/Unix systems, so users of Windows or Mac OS X may need to follow the virtual machine route.
-For manual installation of each dependency, on any version of Linux, see DeveloperInstallGuide.
+For manual installation of each dependency, on any version of Linux, see DeveloperInstallGuide. Alternatively, Chaste can also be run using Docker, and the dockerfile can be accessed at https://github.com/Chaste/chaste-docker, where you'll find instructions for installation and usage.
 
 You will also need the source for the CryptFission4CellTypes project.  This can be done by checking out the version from the repository by using the command 
 ```sh
