@@ -13,6 +13,8 @@ Parameter values to identify crypts:
 - Fourier_harmonic_term: See Table 2 in the paper
 - Crypt_parameters: See Table 2 in the paper (Minimum crypt area, maximum
                     crypt area and minimum arc length)
+                    
+**Note:** The current algorithm version requires the user to specify whether the boundary data is derived from in-vitro or in-silico experiments. This requirement was added due to different variable names used to store the boundary information, which differs between the two types of experiments. However, this is a minor technicality, as once the boundary data is processed, the algorithm performs the same operations for both in-vitro and in-silico data, and the results are comparable.
 
 ## Model of crypt formation on 2D intestinal organoids with 4 different cell types 
 
